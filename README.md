@@ -1,5 +1,6 @@
 # safy-web
 AI-generated site for generating passwords and logins.
+https://thedemon2179.github.io/safy-web/
 
 ---
 
