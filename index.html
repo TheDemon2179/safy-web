@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Генератор логина и пароля</title>
+    <h1 class="title">Safy</h1>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<form>
+		<label for="login-length">Длина логина:</label>
+		<input type="number" id="login-length" name="login-length" min="1" max="100" required>
+
+		<label for="password-length">Длина пароля:</label>
+		<input type="number" id="password-length" name="password-length" min="1" max="100" required>
+
+		<label for="use-special-chars">Использовать спец. символы:</label>
+		<input type="checkbox" id="use-special-chars" name="use-special-chars">
+
+		<label for="use-mixed-case">Использовать разную капитализацию букв:</label>
+		<input type="checkbox" id="use-mixed-case" name="use-mixed-case">
+
+    <button id="copy-login-button">Скопировать логин</button>
+    <button id="copy-password-button">Скопировать пароль</button>
+
+    <input type="submit" value="Сгенерировать">
+    
+  </form>
+
+    <script src="logic.js"></script>
+</body>
+</html>
