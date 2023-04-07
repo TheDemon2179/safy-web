@@ -8,6 +8,7 @@ Continuing my streak of AI-written sites (hello Bing). Interesting and useful.
 ---
 
 Preview:
+
 ![image](https://user-images.githubusercontent.com/55982815/230637906-47ee69f5-ae2e-4e42-ae0a-5fb3654a44b7.png)
 
 ---
